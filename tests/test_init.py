@@ -1,7 +1,8 @@
 """Test component setup."""
+
 from homeassistant.setup import async_setup_component
 
-from custom_components.agl_energy.const import DOMAIN
+from custom_components.penrith_bill_collection.const import DOMAIN
 
 
 async def test_async_setup(hass):

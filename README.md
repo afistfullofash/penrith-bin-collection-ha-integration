@@ -1,3 +1,3 @@
-# AGL Energy for Home Assistant
+# Penrith Bill Collection for Home Assistant
 
 ## Installation
