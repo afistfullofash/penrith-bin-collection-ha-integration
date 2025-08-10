@@ -2,10 +2,10 @@
   "codeowners": ["@afistfullofash"],
   "config_flow": true,
   "dependencies": [],
-  "documentation": "https://github.com/afistfullofash/ha-agl-energy",
-  "domain": "agl_energy",
+  "documentation": "https://github.com/afistfullofash/penrith-bill-collection-ha-integration",
+  "domain": "penrith_bill_collection",
   "iot_class": "cloud_polling",
-  "name": "AGL Energy",
+  "name": "Penrith Bill Collection",
   "requirements": [
     "httpx==0.28.1"
   ],
