@@ -1,4 +1,4 @@
-"""AGL Energy sensor platform."""
+"""Penrith Bin Collection sensor platform."""
 import logging
 import re
 from datetime import timedelta

@@ -14,7 +14,7 @@ from .const import CONF_REPOS, DOMAIN
 _LOGGER = logging.getLogger(__name__)
 
 class PenrithBinCollectionCustomConfigFlow(config_entries.ConfigFlow, domain=DOMAIN):
-    """Github Custom config flow."""
+    """Penrith Bin Collection Custom config flow."""
 
     data: Optional[Dict[str, Any]]
 
