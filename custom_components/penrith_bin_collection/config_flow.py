@@ -1,8 +1,6 @@
 import logging
 from typing import Any, Dict, Optional
 
-from gidgethub import BadRequest
-from gidgethub.aiohttp import GitHubAPI
 from homeassistant import config_entries, core
 from homeassistant.const import CONF_ACCESS_TOKEN, CONF_NAME, CONF_PATH, CONF_URL
 from homeassistant.helpers.aiohttp_client import async_get_clientsession
