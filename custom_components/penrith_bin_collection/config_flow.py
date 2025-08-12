@@ -13,9 +13,10 @@ from .const import CONF_REPOS, DOMAIN
 
 _LOGGER = logging.getLogger(__name__)
 
-class PenrithBinCollectionCustomConfigFlow(config_entries.ConfigFlow, domain=DOMAIN):
+class PenrithBinCollectionConfigFlow(config_entries.ConfigFlow, domain=DOMAIN):
     """Penrith Bin Collection Custom config flow."""
-
+    VERSION = 1
+    MINOR_VERSION = 1
     async def async_step_user(self, info):
         """Invoked when a user initiates a flow via the user interface."""
         if info is not None:
