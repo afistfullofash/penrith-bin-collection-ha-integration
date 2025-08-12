@@ -16,9 +16,10 @@ _LOGGER = logging.getLogger(__name__)
 class PenrithBinCollectionCustomConfigFlow(config_entries.ConfigFlow, domain=DOMAIN):
     """Penrith Bin Collection Custom config flow."""
 
-    data: Optional[Dict[str, Any]]
-
-    async def async_step_location(self, user_input: Optional[Dict[str, Any]] = None):
+    async def async_step_user(self, info):
         """Invoked when a user initiates a flow via the user interface."""
-        errors: Dict[str, str] = {}
-        return self.async_create_entry(title="AGL Energy", data=self.data)
+        if info is not None:
+            pass  # TODO: process info
+
+        schema = vol.Schema({})
+        return self.async_show_form(step_id="user", data=schema)
