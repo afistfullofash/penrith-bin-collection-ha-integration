@@ -1,4 +1,4 @@
-DOMAIN = "agl_energy"
+DOMAIN = "penrith_bin_collection"
 
 ATTR_HOME_LOCALITY = "Kingswood"
 ATTR_HOME_STREET = "George Street"
